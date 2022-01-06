@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Playfair+Display:ital,wght@0,600;1,600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit&family=Playfair+Display:ital,wght@0,600;1,600&family=Roboto&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(image/main.jfif);
+    background-size: cover;
+    color: orange;
+    padding: 40px;
+}
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    border-bottom: 5px solid orange;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 850px;
+    flex-wrap: wrap;
+}
+nav h1{
+    color: orange;
+    font-family: 'playfair display', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: orange;
+    color: black;
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+nav .div a{
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+footer{
+    margin-top: 40px;
+    border-bottom: 5px solid orange;
+    background-color: orange;
+    color:black;
+    padding: 30px 100px;
+}
+footer h3{
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 20px;
+    width: 20%;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+}
+footer h2{
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 20px;
+    width: 20%;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    border-bottom: 2px solid black;
+}
+
+footer .sites{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .sites .site{
+    margin-right: 30pxpx;
+    padding: 10px;
+}
+footer .sites .site p{
+    max-width: 300px;
+}

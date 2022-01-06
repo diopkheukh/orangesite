@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Playfair+Display:ital,wght@0,600;1,600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit&family=Playfair+Display:ital,wght@0,600;1,600&family=Roboto&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    border-bottom: 5px solid orange;
+    font-size: 20px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    border-bottom: 2px solid orange;
+    padding-bottom: 5px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 600px;
+    flex-wrap: wrap;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(image/main.jfif);
+    background-size: cover;
+    color: orange;
+    padding: 40px;
+}
+header h1{
+    color: orange;
+    font-family: 'playfair display', sans-serif;
+    font-size: 40px;
+}
+header h4{
+    margin-top: -10px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid orange;
+}
+nav h1{
+    color: orange;
+    font-family: 'playfair display', sans-serif;
+    font-size: 30px;
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.main .content .card .right img{
+    height: 300px;
+    width: 500px;
+    margin-top: 30px;
+}
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color:orange;
+    color:black;
+}
+.main .content .card.right{
+    flex: 0 0 70px;
+    padding: 20px;
+}
+footer{
+    margin-top: 40px;
+    border-bottom: 5px solid orange;
+    background-color: orange;
+    color:black;
+    padding: 30px 100px;
+}
+footer h3{
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 20px;
+    width: 20%;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+}
+footer h2{
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 20px;
+    width: 20%;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    border-bottom: 2px solid black;
+}
+
+footer .sites{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .sites .site{
+    margin-right: 30pxpx;
+    padding: 10px;
+}
+footer .sites .site p{
+    max-width: 300px;
+}
+@media screen and (max-width:680){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
